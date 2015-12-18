@@ -147,6 +147,7 @@ class Chef
         host.typedef :long,    :LRESULT # Signed result of message processing. WinDef.h: host.typedef LONG_PTR LRESULT;
         host.typedef :pointer, :LPWIN32_FIND_DATA # Pointer to WIN32_FIND_DATA struct
         host.typedef :pointer, :LPBY_HANDLE_FILE_INFORMATION # Point to a BY_HANDLE_FILE_INFORMATION struct
+        host.typedef :ulong,   :NTSTATUS # An NTSTATUS code returned by an LSA function call.
         host.typedef :pointer, :PBOOL # Pointer to a BOOL.
         host.typedef :pointer, :PBOOLEAN # Pointer to a BOOL.
         host.typedef :pointer, :PBYTE # Pointer to a BYTE.
